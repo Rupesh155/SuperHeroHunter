@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets\247250.jpg" type="image/gif">
+
+    <!-- Loading stylesheets -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/761d42c757.js" crossorigin="anonymous"></script>
+
+    <title>Superheroes</title>
+</head>
+
+<body>
+    <div id="snackbar"></div>
+    <!-- NAVIGATION BAR -->
+    <header>
+        <a href="index.html">
+            <div class="nav-left">
+                <img id="logo" src="assets\422073.jpg" width="50px">
+                <div id="logo-text">
+                    <h1>Superhero Hunter</h1>
+                </div>
+            </div>
+        </a>
+        <div class="nav-right">
+            <a href="index.html">
+                <div>Home</div>
+            </a>
+            <a href="favourites.html">
+                <div>Favourites</div>
+            </a>
+        </div>
+    </header>
+
+    <main style="overflow-y: hidden;">
+        <div class="card">
+            <div class="ds-top"></div>
+            <div class="card-details">
+                <img id="superhero-img" class="avatar-holder">
+                <h1 id="superhero-name" style="font-size: 40px;">
+                </h1>
+                <div id="favourite">
+                </div>
+                <div id="powerstats" class="superheroInfo">
+                    <h1 style="color: crimson;">Power</h1>
+                    <div class="detail-power">
+                        <div class="info-title">Combat</div>
+                        <div id="combat" class="bar"></div>
+                    </div>
+                    <div class="detail-power">
+                        <div class="info-title">Durability</div>
+                        <div id="durability" class="bar"></div>
+                    </div>
+                    <div class="detail-power">
+                        <div class="info-title">Intelligence</div>
+                        <div id="intelligence" class="bar"></div>
+                    </div>
+                    <div class="detail-power">
+                        <div class="info-title">Power</div>
+                        <div id="power" class="bar"></div>
+                    </div>
+                    <div class="detail-power">
+                        <div class="info-title">Speed</div>
+                        <div id="speed" class="bar"></div>
+                    </div>
+                    <div class="detail-power">
+                        <div class="info-title">Strength</div>
+                        <div id="strength" class="bar"></div>
+                    </div>
+                </div>
+
+
+                <div id="appearance" class="superheroInfo">
+                    <h1 style="color: crimson;">Appearance</h1>
+                    <div class="detail">
+                        <div class="info-title">Gender</div>
+                        <div id="gender" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Race</div>
+                        <div id="race" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Height</div>
+                        <div id="height" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Weight</div>
+                        <div id="weight" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Eye color</div>
+                        <div id="eye-color" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Hair color</div>
+                        <div id="hair-color" class="info-content"></div>
+                    </div>
+                </div>
+
+                <div id="biography" class="superheroInfo">
+                    <h1 style="color: crimson;">Biography</h1>
+                    <div class="detail">
+                        <div class="info-title">Full name</div>
+                        <div id="full-name" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Place of birth</div>
+                        <div id="place-of-birth" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">First appearance</div>
+                        <div id="first-appearance" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Publisher</div>
+                        <div id="publisher" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Alignment</div>
+                        <div id="alignment" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Alter egos</div>
+                        <div id="alter-egos" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Aliases</div>
+                        <div id="aliases" class="info-content"></div>
+                    </div>
+                </div>
+
+                <div id="work" class="superheroInfo">
+                    <h1 style="color: crimson;">Work</h1>
+                    <div class="detail row">
+                        <div class="info-title">Occupation</div>
+                        <div id="occupation" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Base</div>
+                        <div id="base" class="info-content"></div>
+                    </div>
+                </div>
+
+                <div id="connections" class="superheroInfo">
+                    <h1 style="color: crimson;">Connections</h1>
+                    <div class="detail">
+                        <div class="info-title">Relatives</div>
+                        <div id="relatives" class="info-content"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="info-title">Group affiliations</div>
+                        <div id="group-affiliation" class="info-content"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts/details.js"></script>
+</body>
+
+</html>
