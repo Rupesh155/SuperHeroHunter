@@ -3,7 +3,8 @@ A custom-crafted superhero search engine to know your superhero better!
 Made with love using HTML + CSS + VanillaJS + FontAwesome(for icons)
 
 ## API Used:https://github.com/Prathamesh-More-prog
-Hosting Link:
+Hosting Link:https://prathamesh-more-prog.github.io/MonsterSuperHero/
+
 
 ## Components:
 ### Home Page
