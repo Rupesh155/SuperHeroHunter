@@ -8,7 +8,7 @@
 header {
   width           : 100%;
   height          : 60px;
-  background-color: #131349;
+  background-color: #bf148c;
   z-index         : 20;
   position        : fixed;
   justify-content : space-between;
@@ -93,7 +93,7 @@ body:after {
   z-index               : -1;
   width                 : 150%;
   height                : 150%;
-  background            : url('../assets/247129.jpg');
+  /* background            : url('../assets/247129.jpg'); */
   background-size       : contain;
   /* background-position: 600px -200px; */
 
